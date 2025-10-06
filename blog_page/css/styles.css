@@ -1,0 +1,105 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+    background-color:#f4f4f4;
+
+}
+
+header{
+    color:#ffffff;
+    padding:10px 0;
+    text-align:center;
+    background-color:#d46cae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;                            
+    flex-wrap: wrap;
+    font-size: large;
+}
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    font-weight: 400;
+}
+a{
+    color:#d46cae;
+    text-decoration:none;
+}
+span,em{
+    color:#d46cae;
+    font-weight:bold;
+}
+
+
+nav a{
+    
+    margin:0 15px;
+}
+nav ul{
+    list-style:none;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+    margin:0 10px;
+}
+
+main{
+    padding:2em;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    background-color: #e9e0e0;
+ 
+    
+}
+h1, h2, h3{
+    color:black;
+}
+section{
+    margin-bottom:20px;
+}
+img{
+    width:25em;
+    height:auto;
+}
+.flex-row{
+    padding:1em 10em 1em 10em;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis:150em;
+    gap: 1em;
+    border-bottom: #e9e0e0 1px solid;
+   
+}
+#contact form{
+    display:flex;
+    flex-direction:column;
+}
+input,textarea{
+    margin-bottom:10px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-family:'Courier New', Courier, monospace;
+}
+button{
+    background-color:#d46cae;
+    color:#ffffff;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+    margin-top:10px;
+}
+footer{
+    text-align:center;
+    padding:20px 0;
+    background-color:#d46cae;
+    color:#ffffff;
+    margin-top:20px;
+}
